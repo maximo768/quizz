@@ -2,7 +2,7 @@
 
 
 exports.question = function (req,res) {
-	models.Quiz.findAall().success(function(quiz){
+	models.Quiz.findAll().success(function(quiz){
 		res.render('quizes/question', pregunta: quiz[0].pregunta})
 	})
 };
