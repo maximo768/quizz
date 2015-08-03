@@ -9,12 +9,11 @@
     "node": "0.10.x",
     "npm": "1.4.x"
   },
-<<<<<<< HEAD
+
   "devDependencies":{
   "sqlite3": "~2.2.0" 	
 },
-=======
->>>>>>> 6b420a5ea7bc030235d0e75ee4ae003ab04bc2f8
+
   "dependencies": {
     "body-parser": "~1.8.1",
     "cookie-parser": "~1.3.3",
@@ -26,6 +25,6 @@
     "serve-favicon": "~2.1.3",
     "sequelize": "~1.7.0",
     "pg": "^4.1.1",
-    "pg-histore": "2.3.2"
+    "pg-histore": "^2.3.2"
   }
 }
